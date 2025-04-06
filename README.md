@@ -2,12 +2,12 @@
 
 | Esimerkki | Lainaus <br>merkeittä | "Lainaus" <br>merkeissä | 'Puolilainaus' <br>merkeissä |
 |:--- |:--- |:--- |:--- |
-| **Simple string:**<br>teksti | teksti | teksti | teksti |
-| **Tilde expansion:**<br>~/\*.txt | **/home/tuula/\*.txt** | ~/\*.txt | ~/\*.txt |
-| **Brace expansion:**<br>{a,b}<br>{001..003} | **a b**<br>**001 002 003** | {a,b}<br>{001..003} | {a,b}<br>{001..003} |
-| **Command substitution:**<br>$(uname ‑o)<br>\`uname ‑o\` | **GNU/Linux**<br>**GNU/Linux** | **GNU/Linux**<br>**GNU/Linux** | $(uname ‑o)<br>\`uname ‑o\` |
-| **Arithmetic expansion:**<br>$((2+2)) | **4** | **4** | $((2+2)) |
-| **Parameter expansion:**<br>$USER | **tuula** | **tuula** | $USER |
+| **Simple string:**<br>teksti | <br>teksti | <br>teksti | <br>teksti |
+| **Tilde expansion:**<br>~/\*.txt | <br>**/home/tuula/\*.txt** | <br>~/\*.txt | <br>~/\*.txt |
+| **Brace expansion:**<br>{a,b}<br>{001..003} | <br>**a b**<br>**001 002 003** | <br>{a,b}<br>{001..003} | <br>{a,b}<br>{001..003} |
+| **Command substitution:**<br>$(uname ‑o)<br>\`uname ‑o\` | <br>**GNU/Linux**<br>**GNU/Linux** | <br>**GNU/Linux**<br>**GNU/Linux** | <br>$(uname ‑o)<br>\`uname ‑o\` |
+| **Arithmetic expansion:**<br>$((2+2)) | <br>**4** | <br>**4** | <br>$((2+2)) |
+| **Parameter expansion:**<br>$USER | <br>**tuula** | <br>**tuula** | <br>$USER |
 
 |   | Esimerkki | Lainaus <br>merkeittä | "Lainaus" <br>merkeissä | 'Puolilainaus' <br>merkeissä |
 |:--- |:--- |:--- |:--- |:--- |
