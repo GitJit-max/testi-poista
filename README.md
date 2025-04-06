@@ -1,6 +1,6 @@
 # testi-poista
 
-| Esimerkki | Lainaus <br>merkeittä | "Lainaus" <br>merkeissä | 'Puolilainaus' <br>merkeissä |
+|   | Lainaus <br>merkeittä | "Lainaus" <br>merkeissä | 'Puolilainaus' <br>merkeissä |
 |:--- |:--- |:--- |:--- |
 | **Simple string:**<br>teksti | <br>teksti | <br>teksti | <br>teksti |
 | **Tilde expansion:**<br>~/\*.txt | <br>**/home/tuula/\*.txt** | <br>~/\*.txt | <br>~/\*.txt |
