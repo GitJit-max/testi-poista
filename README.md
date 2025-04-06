@@ -2,6 +2,15 @@
 
 |   | Lainaus <br>merkeittä | "Lainaus" <br>merkeissä | 'Puolilainaus' <br>merkeissä |
 |:--- |:--- |:--- |:--- |
+| **Selkoteksti:**<br>teksti | <br>teksti | <br>teksti | <br>teksti |
+| **Tilde-laajennus:**<br>~/\*.txt | <br>**/home/tuula/\*.txt** | <br>~/\*.txt | <br>~/\*.txt |
+| **Sulku-laajennus:**<br>{a,b}<br>{001..003} | <br>**a b**<br>**001 002 003** | <br>{a,b}<br>{001..003} | <br>{a,b}<br>{001..003} |
+| **Komennon-korvaus:**<br>$(uname ‑o)<br>\`uname ‑o\` | <br>**GNU/Linux**<br>**GNU/Linux** | <br>**GNU/Linux**<br>**GNU/Linux** | <br>$(uname ‑o)<br>\`uname ‑o\` |
+| **Lasku-laajennus:**<br>$((2+2)) | <br>**4** | <br>**4** | <br>$((2+2)) |
+| **Parametri-laajennus:**<br>$USER | <br>**tuula** | <br>**tuula** | <br>$USER |
+
+|   | Lainaus <br>merkeittä | "Lainaus" <br>merkeissä | 'Puolilainaus' <br>merkeissä |
+|:--- |:--- |:--- |:--- |
 | **Simple string:**<br>teksti | <br>teksti | <br>teksti | <br>teksti |
 | **Tilde expansion:**<br>~/\*.txt | <br>**/home/tuula/\*.txt** | <br>~/\*.txt | <br>~/\*.txt |
 | **Brace expansion:**<br>{a,b}<br>{001..003} | <br>**a b**<br>**001 002 003** | <br>{a,b}<br>{001..003} | <br>{a,b}<br>{001..003} |
