@@ -1,3 +1,28 @@
+
+- Aaa
+- Bbb
+- Ccc
+
++ Aaa
++ Bbb
++ Ccc
+
+a) Aaa
+b) Bbb
+c) Ccc
+
+a. Aaa
+b. Bbb
+c. Ccc
+
+1. Aaa
+2. Bbb
+3. Ccc
+
+1) Aaa
+2) Bbb
+3) Ccc
+
 # testi-poista
 
 |   | Lainaus <br>merkeittä | "Lainaus" <br>merkeissä | 'Puolilainaus' <br>merkeissä |
