@@ -11,7 +11,7 @@
 
 <!-- End of auto generated content -->
 
-# Luku 2 - Unix järjestelmän suunnittelun ja toteutuksen perusteet
+# Luku 2 - Unix järjestelmän perusteet
 
 Linuxia on pidetty aloittelijoille vaikeana järjestelmänä. Perusteiden opettelu saattaa tuntua turhauttavalta, koska järjestelmä on suunniteltu eri lähtökohdista kuin useimmille tuttu Windows (tai sen edeltäjä MS-DOS). Moni asia käsitellään hyvin eri tavalla. Muista kuitenkin, että kukaan ei opi käyttämään tietokonetta tehokkaasti viikossa tai kahdessa, ei edes Windowsissa. [^linufi] Jotta voi käyttää linuxia tehokkaasti, on hyvä oppia järjestelmän perusteet sekä jotain sen historiasta.
 
