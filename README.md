@@ -13,23 +13,15 @@
 
 # Luku 2 - Unix järjestelmän perusteet
 
-Linuxia on pidetty aloittelijoille vaikeana järjestelmänä. Perusteiden opettelu saattaa tuntua turhauttavalta, koska järjestelmä on suunniteltu eri lähtökohdista kuin useimmille tuttu Windows (tai sen edeltäjä MS-DOS). Moni asia käsitellään hyvin eri tavalla. Muista kuitenkin, että kukaan ei opi käyttämään tietokonetta tehokkaasti viikossa tai kahdessa, ei edes Windowsissa. [^linufi] Jotta voi käyttää linuxia tehokkaasti, on hyvä oppia järjestelmän perusteet sekä jotain sen historiasta.
-
-[^linufi]: [Linux.fi ohjesivusto - Aloittelijalle, accessed 2021](https://www.linux.fi/wiki/Aloittelijalle)
-
-<a id="introduction-to-the-text-interface"></a>
-
 ## 2.1 Johdatus komentokieli-käyttöliittymään
-
-**Liittymä** (englanniksi **interface**) viittaa tapoihin, joilla ohjelmat kommunikoivat muiden ohjelmien sekä ihmiskäyttäjien kanssa. Suuri osa unix-yhteisön perinteistä, ohjelmien liittymien suunnittelussa, saattaa tuntua oudoilta ja vanhanaikaisilta. Perinteellä on kuitenkin sisäinen logiikka, joka kannattaa oppia ja ymmärtää. Se heijastaa pitkän historian aikana kertynyttä heuristiikkaa valmiiden, etukäteen mietittyjen tai hankittujen ratkaisumallien soveltamisesta ongelmanratkaisussa. Samat mekanismit mahdollistavat kommunikaation tehokkaasti sekä muiden ohjelmien että ihmisten kanssa. [^raymond]
-
-<a id="retained-utility"></a>
 
 ### Komentokieli on säilyttänyt hyödyllisyytensä [^raymond] <!--update internal links if changed-->
 
-Graafisten käyttöliittymien puute katsotaan nyky käyttöjärjestelmien aikakaudella ongelmaksi (englanniksi GUI eli Graphical User Interface). Unix oppi on päinvastainen: Heikot tekstipohjaiset eli komentokieliset käyttöliittymät ovat vähemmän ilmeinen, mutta yhtä vakava puute (englanniksi CLI eli Command Language Interface).
-
 #### Heikon tekstikäyttöliittymän seuraukset
+
+Komentokielisen käyttöliittymän haittapuolena on tietysti se, että se on melkein aina hyvin kuormittava muistinvaraisesti, eikä mahdollista käyttöä intuition varassa, ilman aiempaa tietoa ja ohjeisiin perehtymistä. Useimmat epätekniset loppukäyttäjät pitävät tällaista käyttöliittymää kryptisenä ja suhteettoman vaikeasti opittavana.
+
+Komentokielisen käyttöliittymän haittapuolena on tietysti se, että se on melkein aina hyvin kuormittava muistinvaraisesti, eikä mahdollista käyttöä intuition varassa, ilman aiempaa tietoa ja ohjeisiin perehtymistä. Useimmat epätekniset loppukäyttäjät pitävät tällaista käyttöliittymää kryptisenä ja suhteettoman vaikeasti opittavana.
 
 Jos järjestelmän ja sovellusohjelmien tekstikäyttöliittymä on heikko tai sitä ei ole lainkaan, on siitä seuraavanlaiset seuraukset:
 - Järjestelmän etähallinta on harvoin tuettua, sitä on vaikeampi käyttää ja se on verkkointensiivisempää.
